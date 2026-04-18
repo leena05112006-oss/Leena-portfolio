@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: black;
+  color: white;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+}
+
+.nav-logo {
+  color: gold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px;
+  text-align: center;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 40px;
+}
+
+.name {
+  color: gold;
+}
+
+/* BUTTON */
+.btn {
+  padding: 10px 20px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
